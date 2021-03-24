@@ -22,8 +22,8 @@ struct ContentView: View {
                     .clipShape(Circle())
                     .overlay(
                         Circle().stroke(Color.white, lineWidth: 5)
-                )
-
+                    )
+                
                 Text("Irina Moiseeva")
                     .font(Font.custom("Pacifico-Regular", size: 40))
                     .bold()
@@ -35,7 +35,7 @@ struct ContentView: View {
                 InfoView(text: "+372 5375 4641", imageName: "phone.fill")
                 InfoView(text: "moiseeva.irina@gmail.com", imageName: "envelope.fill")
             }
-
+            
         }
     }
 }
